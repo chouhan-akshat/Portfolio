@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Akshat Chouhan</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
+
 <body>
   <header>
     <div class="navbar">
@@ -15,7 +18,7 @@
       <div class="full-number">
         <div class="nav-code">
           <i class="fa-solid fa-phone"></i>
-           (91)
+          (91)
         </div>
         <div class="nav-number">95897 75195</div>
         <div class="nav-menu">
@@ -25,30 +28,42 @@
     </div>
   </header>
 
+  <!-- Dropdown Menu -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <nav class="nav-dropdown" id="navDropdown">
+    <a href="#top" data-target="top"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="#know-me" data-target="know-me"><i class="fa-solid fa-user"></i> Know Me More</a>
+    <a href="#resume" data-target="resume"><i class="fa-solid fa-file-lines"></i> Resume</a>
+    <a href="#contact" data-target="contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+  </nav>
+
   <main>
     <div class="main-background">
       <div class="content">
         <div class="home-text">
-        <div class="main-hello">HI, I'M A FREELANCER</div>
-        <div class="animation-text">
-          <span id="typing-text"></span><span class="cursor">|</span>
-        </div>
-        <div class="location">based in Madhya Pradesh, INDIA.</div>
-        <div class="buttons">
-          <div class="visit"><p>View My Works</p></div>
-          <div class="contact"><u>Contact Me</u></div>
-        </div>
+          <div class="main-hello">HI, I'M A FREELANCER</div>
+          <div class="animation-text">
+            <span id="typing-text"></span><span class="cursor">|</span>
+          </div>
+          <div class="location">based in Madhya Pradesh, INDIA.</div>
+          <div class="buttons">
+            <a href="projects.html" class="visit" style="text-decoration: none;">
+              <p>View My Works</p>
+            </a>
+            <a href="#contact" class="contact" style="text-decoration: none;"><u>Contact Me</u></a>
+          </div>
         </div>
         <div class="photo">
-          <img src="My logo img.png" alt="Profile Photo"/>
+          <img src="../My logo img.png" alt="Profile Photo" />
         </div>
       </div>
     </div>
   </main>
 
   <!-- Dummy section to enable scroll -->
-  <section class="extra-content">
-     <div class="kmm"> <h1>Know Me More</h1>
+  <section class="extra-content" id="know-me">
+    <div class="kmm">
+      <h1>Know Me More</h1>
     </div>
     <div class="hiiamakshat">
       Hi I'm <b id="boldiamakshat"> Akshat Chouhan</b>
@@ -65,34 +80,34 @@
     </div>
 
     <div class="experience-box">
-  <div class="number-circle">
-    <span class="number">4</span>
-  </div>
-  <p class="caption">Years of <strong id="expereience">Experience</strong></p>
-</div>
+      <div class="number-circle">
+        <span class="number">4</span>
+      </div>
+      <p class="caption">Years of <strong id="expereience">Experience</strong></p>
+    </div>
 
 
-<!-- personla info sectio  -->
+    <!-- personla info sectio  -->
 
 
-<div class="info-grid">
-  <div class="info-box">
-    <p class="label">Name:</p>
-    <p class="value">Akshat Chouhan</p>
-  </div>
-  <div class="info-box">
-    <p class="label">Email:</p>
-    <p class="value"><a href="#">akshatchouhan656@gmail.com</a></p>
-  </div>
-  <div class="info-box">
-    <p class="label">Date of birth:</p>
-    <p class="value">7 August, 2005</p>
-  </div>
-  <div class="info-box">
-    <p class="label">From:</p>
-    <p class="value">Madhya Pradesh, INDIA.</p>
-  </div>
-</div>
+    <div class="info-grid">
+      <div class="info-box">
+        <p class="label">Name:</p>
+        <p class="value">Akshat Chouhan</p>
+      </div>
+      <div class="info-box">
+        <p class="label">Email:</p>
+        <p class="value"><a href="#">akshatchouhan656@gmail.com</a></p>
+      </div>
+      <div class="info-box">
+        <p class="label">Date of birth:</p>
+        <p class="value">7 August, 2005</p>
+      </div>
+      <div class="info-box">
+        <p class="label">From:</p>
+        <p class="value">Madhya Pradesh, INDIA.</p>
+      </div>
+    </div>
 
 
 
@@ -102,103 +117,103 @@
   <!-- resume section -->
 
   <section id="resume">
-  <div class="resume-header">
-    <span>Resume</span>
-    <h2 id="resume-summary">A summary of My Resume</h2>
+    <div class="resume-header">
+      <span>Resume</span>
+      <h2 id="resume-summary">A summary of My Resume</h2>
 
-  </div>
-
-  <div class="resume-container">
-    <div class="resume-box">
-      <h3>My Education</h3>
-      <div class="resume-item">
-        <h4><i> Computer Science Engg.</i>[College]</h4>
-        <p>RGPV University / 4 <sup>th</sup>year</p>
-        <p>Pursuing Computer Science & Engg. <br>
-           Have done <b>Node.js, React & Django</b>
-        </p>
-      </div>
-      <div class="resume-item">
-        <h4>10+2 in Science(PCM) [School]</h4>
-        <p>Delhi Public School</p>
-        <!-- <p>Description here...</p> -->
-      </div>
     </div>
 
-    <div class="resume-box">
-      <h3>My Experience</h3>
-      <div class="resume-item">
-        <h4>Web Developer</h4>
-        <p>Akshat Chouhan</p>
-        <p>Working as a <b>FREELANCER.</b> </p>
-        <p>Proficient in creating E-commerce websites.</p>
+    <div class="resume-container">
+      <div class="resume-box">
+        <h3>My Education</h3>
+        <div class="resume-item">
+          <h4><i> Computer Science Engg.</i>[College]</h4>
+          <p>RGPV University / 4 <sup>th</sup>year</p>
+          <p>Pursuing Computer Science & Engg. <br>
+            Have done <b>Node.js, React & Django</b>
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>10+2 in Science(PCM) [School]</h4>
+          <p>Delhi Public School</p>
+          <!-- <p>Description here...</p> -->
+        </div>
       </div>
-      <div class="resume-item">
-        <h4>Web Development intern</h4>
-        <p>Infoviaan Technologies/ 2024-25</p>
-        <p>Full-stack Developer</p>
+
+      <div class="resume-box">
+        <h3>My Experience</h3>
+        <div class="resume-item">
+          <h4>Web Developer</h4>
+          <p>Akshat Chouhan</p>
+          <p>Working as a <b>FREELANCER.</b> </p>
+          <p>Proficient in creating E-commerce websites.</p>
+        </div>
+        <div class="resume-item">
+          <h4>Web Development intern</h4>
+          <p>Infoviaan Technologies/ 2024-25</p>
+          <p>Full-stack Developer</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ___________________Footer Section______________________ -->
+  <!-- ___________________Footer Section______________________ -->
 
-<!-- <section id="footer">
+  <!-- <section id="footer">
     <div class="upper-section">
 
     </div>
 </section> -->
 
 
-<section id="contact" class="contact-section">
-  <div class="contact-container">
-    <!-- Left Side -->
-    <div class="contact-info">
-      <h2>Let's get in touch</h2>
-      <p id="text1">
-        "Excited to hear about your project! Please share <br> key details  like your goals,
-         target audience, style ideas,<br> timeline, and budget so we can hit the  ground running."
-      </p>
-      <p id="text2"><strong>Living In:</strong><br>Vijay Nagar, Indore, MP.</p>
-      <p id="text3"><strong>Call:</strong><br>(+91) 95897 75195</p>
-      <div class="social-icons">
-        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <!-- Left Side -->
+      <div class="contact-info">
+        <h2>Let's get in touch</h2>
+        <p id="text1">
+          "Excited to hear about your project! Please share <br> key details like your goals,
+          target audience, style ideas,<br> timeline, and budget so we can hit the ground running."
+        </p>
+        <p id="text2"><strong>Living In:</strong><br>Vijay Nagar, Indore, MP.</p>
+        <p id="text3"><strong>Call:</strong><br>(+91) 95897 75195</p>
+        <div class="social-icons">
+          <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
           <a href="#"> <i class="fa-brands fa-linkedin" id="linkedin"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/akshat_chouhan__"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <!-- <a href="#"><i class="fab fa-dribbble"></i></a> -->
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/akshat_chouhan__"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <!-- <a href="#"><i class="fab fa-dribbble"></i></a> -->
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="contact-form">
+        <h2>Estimate your Project?</h2>
+        <form id="forms">
+          <label>What is Your Name:</label>
+          <input type="text" placeholder="Your Name" required>
+
+          <label for="mobile">Mobile Number:</label>
+          <input type="tel" placeholder="Enter your mobile number" required>
+
+
+          <label>Your Email Address:</label>
+          <input type="email" placeholder="Your Email" required>
+
+          <label>How can I Help you?:</label>
+          <!-- <textarea rows="text" placeholder="Your Message"></textarea> -->
+          <input type="text" placeholder="Your Message" required>
+
+
+          <button type="submit" id="send-button">
+            Send <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
       </div>
     </div>
-
-    <!-- Right Side -->
-    <div class="contact-form">
-      <h2>Estimate your Project?</h2>
-      <form id="forms">
-        <label>What is Your Name:</label>
-        <input type="text" placeholder="Your Name" required>
-
-        <label for="mobile">Mobile Number:</label>
-        <input type="tel" placeholder="Enter your mobile number" required>
-
-
-        <label>Your Email Address:</label>
-        <input type="email" placeholder="Your Email" required>
-
-        <label>How can I Help you?:</label>
-        <!-- <textarea rows="text" placeholder="Your Message"></textarea> -->
-        <input type="text" placeholder="Your Message" required>
-
-
-        <button type="submit" id="send-button">
-          Send <i class="fas fa-arrow-right"></i>
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
+  </section>
 
 
 
@@ -210,6 +225,41 @@
 
 
 
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
+  <script>
+    // ---- Dropdown Menu Toggle ----
+    const menuBtn = document.querySelector('.nav-menu');
+    const dropdown = document.getElementById('navDropdown');
+    const overlay = document.getElementById('menuOverlay');
+
+    menuBtn.addEventListener('click', () => {
+      dropdown.classList.toggle('open');
+      overlay.classList.toggle('active');
+    });
+
+    overlay.addEventListener('click', () => {
+      dropdown.classList.remove('open');
+      overlay.classList.remove('active');
+    });
+
+    // ---- Smooth Scroll for dropdown links ----
+    dropdown.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = link.getAttribute('data-target');
+        let el;
+        if (target === 'top') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          el = document.getElementById(target) ||
+            document.querySelector('.' + target);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        dropdown.classList.remove('open');
+        overlay.classList.remove('active');
+      });
+    });
+  </script>
 </body>
+
 </html>
